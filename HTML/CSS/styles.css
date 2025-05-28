@@ -1,0 +1,731 @@
+/* Link for google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*
+{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+
+html{
+    font-size: 63%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 7rem;
+}
+
+body{
+    background: #eee;
+}
+
+section{
+    padding: 2rem 9%;
+}
+
+.heading{
+    text-align: center;
+    padding: 2rem 0;
+    padding-bottom: 3rem;
+    font-size: 3rem;
+    color: #2C3930;
+    font-family: "Roboto", sans-serif;
+}
+
+/* Header Section*/
+.header{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 2rem 9%;
+    background: #fff;
+    box-shadow: 0 0.1rem 1rem rgba(0, 0, 0, 1);
+    transition: top 0.3s ease-in-out;
+}
+
+.header .logo{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: #2C3930;
+}
+
+.header .logo i{
+    color: #4B352A;
+}
+
+.header .navbar a{
+    font-size: 1.7rem;
+    margin: 0 1rem;
+    color: #2C3930;
+}
+
+header .navbar a:hover{
+    color: #4B352A;
+}
+
+.header .icons div{
+    height: 4.5rem;
+    width: 4.5rem;
+    line-height: 4.5rem;
+    border-radius: .5rem;
+    background: #eee;
+    color: #130f40;
+    font-size: 2rem;
+    margin-right: .3rem;
+    text-align: center;
+}
+
+.header .icons div:hover{
+    background: #4B352A;
+    color: #eee;
+}
+
+#menu-btn{
+    display: none;
+}
+
+/*Home Section*/
+
+.home{
+    display: flex;
+    justify-content: center;
+    padding-top: 17rem;
+    padding-bottom: 10rem;
+    background-color: #EBE5C2;
+}
+
+.home .content{
+    text-align: center;
+    width: 60rem;
+}
+
+.home .content h2{
+    font-size: 3rem;
+    color: #2C3930;
+    font-family: "Roboto", sans-serif;
+}
+
+.home .content p{
+    font-size: 1.7rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+}
+
+.btn{
+    margin-top: 16px;
+    display: inline-block;
+    padding: 1rem 3rem;
+    font-size: 1.5rem;
+    font-family: "Poppins", sans-serif;
+    border-radius: .5rem;
+    cursor: pointer;
+    background: #06202B;
+    color: #ECEFCA;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.btn:hover{
+    background: #8E1616;
+    transition: 0.3s ease;
+}
+
+/*Gallery and Products Section*/
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 500px;
+    height: 500px;
+    text-align: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.swiper-slide p{
+    font-size: 1.7rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+}
+
+
+/*About Us Section*/
+.about-us-page{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px auto;
+}
+
+.about-us-page .heading{
+    text-align: center;
+    padding: 2rem 0;
+    padding-bottom: 3rem;
+    font-size: 3rem;
+    color: #2C3930;
+    font-family: "Roboto", sans-serif;
+}
+.about-us-page p{
+    font-size: 1.7rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    text-transform: none;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.about-image{
+    flex: 1;
+    margin-right: 40px;
+    overflow: hidden;
+}
+
+.about-image img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    transition: 0.5s ease;
+}
+
+.about-content{
+    flex: 1;
+}
+
+.about-content p{
+    font-size: 1.7rem;
+    line-height: 1.5;
+    font-weight: 200;
+}
+
+/*Products Section*/
+.product-slider {
+  direction: rtl;
+}
+
+h3{
+    font-size: 2rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+}
+
+/*Review Section*/
+.review .review-slider{
+    padding: 1rem;
+}
+
+.review .review-slider .box{
+    background: #fff;
+    border-radius: .5rem;
+    text-align: center;
+    padding: 3rem 2rem;
+    outline-offset: -1rem;
+    box-shadow: 0 0.1rem 1rem rgba(0, 0, 0, 1);
+    transition: .2s linear;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.review .review-slider .box img{
+    height: 15rem;
+    width: 15rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.review .review-slider .box h3{
+    font-size: 2rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    padding-bottom: .5rem;
+}
+
+.review .review-slider .box p{
+    font-size: 1.7rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+}
+
+.review .review-slider .box .stars{
+    color: #2C3930;
+    font-size: 1.7rem;
+}
+
+/*Mision and Vision Section*/
+.mission-vision-page{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px auto;
+}
+
+.mission-vision-page .heading{
+    text-align: center;
+    padding: 2rem 0;
+    padding-bottom: 3rem;
+    font-size: 3rem;
+    color: #2C3930;
+    font-family: "Roboto", sans-serif;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+
+.mission-vision{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.mission-vision-image{
+    flex: 1;
+    margin-right: 40px;
+    overflow: hidden;
+}
+
+.mission-vision-image img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    transition: 0.5s ease;
+}
+
+.mission-vision-content{
+    flex: 1;
+}
+
+.mission-vision-content h2{
+    font-size: 2.5rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+
+.mission-vision-content p{
+    font-size: 1.7rem;
+    line-height: 1.5;
+    font-weight: 200;
+}
+
+/* Blogs Page*/
+
+.blogs .box-container{
+    border: 0px solid;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(26rem, 1fr));
+    gap: 1.5rem;
+}
+
+.blogs .box-container .box{
+    overflow: hidden;
+    border-radius: .5rem;
+    box-shadow: 0 0.1rem 1rem rgba(0, 0, 0, 1);
+    background: #fff;
+}
+
+.blogs .box-container .box img{
+    height: 30rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+.blogs .box-container .box .content{
+    padding: 2rem;
+}
+
+.blogs .box-container .box .content .icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+
+.blogs .box-container .box .content .icons a{
+    font-size: 2rem;
+    font-weight: 300;
+    color: black;
+}
+
+.blogs .box-container .box .content .icons a i{
+    color: #2C3930;
+    padding-right: .5rem;
+    
+}
+
+.blogs .box-container .box .content h3{
+    line-height: 1.8rem;
+    color: black;
+    font-size: 2.2rem;
+    padding: .5rem 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+
+.blogs .box-container .box .content p{
+    line-height: 1.8rem;
+    color: black;
+    font-size: 1.5rem;
+    padding: .5rem 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+}
+
+/* FAQs Page*/
+.faqs> p,
+.faqs > h1 {
+    margin: 1.5rem 0;
+    text-align: center;
+}
+
+.faqs > h1 {
+    letter-spacing: 3px;
+}
+
+.accordion {
+    background-color: white;
+    color: rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+    font-size: 2rem;
+    width: 100%;
+    padding: 2rem 2.5rem;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 300;
+}
+
+.accordion i {
+    font-size: 2.3rem;
+}
+
+.active,
+.accordion:hover {
+    background-color: #f1f7f5;
+}
+
+.pannel {
+    padding: 0 2rem 2.5rem 2rem;
+    background-color: white;
+    overflow: hidden;
+    background-color: #f1f7f5;
+    display: none;
+}
+.pannel p {
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 1.8rem;
+    line-height: 1.4;
+}
+
+.faq {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin: 10px 0;
+}
+
+.faq.active {
+    border: none;
+}
+
+/* Contact Us Page*/
+.center-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-color: #f5f5f5; /* Optional background */
+    padding: 20px;
+}
+
+.contact-container {
+    background: #fff;
+    max-width: 600px;
+    width: 100%;
+    border-radius: 12px;
+    padding: 40px 30px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+    transition: box-shadow 0.3s ease;
+  }
+  .contact-container:hover {
+    box-shadow: 0 12px 40px rgba(0,0,0,0.25);
+  }
+  h1 {
+    margin-top: 0;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 3rem;
+    color: #2C3930;
+    font-family: "Roboto", sans-serif;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+  }
+  label {
+    font-weight: 600;
+    margin-bottom: 6px;
+    color: #555;
+  }
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    padding: 12px 15px;
+    margin-bottom: 20px;
+    border: 2px solid #d2d2d2;
+    border-radius: 8px;
+    font-size: 1.7rem;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    resize: vertical;
+    font-family: inherit;
+  }
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  textarea:focus {
+    box-shadow: 0 0 8px rgba(66, 42, 251, 0.6);
+    outline: none;
+  }
+  textarea {
+    min-height: 120px;
+  }
+  button{
+    background: #06202B;
+    border: none;
+    padding: 15px 0;
+    font-weight: 700;
+    font-size: 1.7rem;
+    color: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 12px rgba(66, 42, 251, 0.6);
+  }
+  button:hover {
+    background: #8E1616;
+  }
+  /* Responsive adjustments */
+  @media (max-width: 480px) {
+    .contact-container {
+      padding: 30px 20px;
+    }
+    h1 {
+      font-size: 1.8rem;
+      margin-bottom: 25px;
+    }
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      font-size: 1.7rem;
+    }
+    button {
+      font-size: 1.7rem;
+      padding: 12px 0;
+    }
+  }
+
+.profile-section {
+    max-width: 840px;
+    margin: 40px auto;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+    padding: 32px 24px;
+    text-align: center;
+}
+  .profile-photo {
+    width: 180px;
+    height: 180px;
+    margin: 0 auto 24px auto;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+  }
+  .profile-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .profile-name {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin: 0 0 20px 0;
+    color: #004d40; /* dark teal */
+  }
+
+  .section-title {
+    font-weight: 600;
+    font-size: 2rem;
+    margin: 28px 0 12px 0;
+    color: #00796b; /* teal */
+    text-align: left;
+  }
+  .profile-experience,
+  .profile-reflection {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    color: #555;
+    margin: 0;
+    text-align: left;
+  }
+  .profile-reflection {
+    margin-top: 6px;
+    font-style: italic;
+    background: #e0f2f1;
+    padding: 16px 20px;
+    border-left: 5px solid #004d40;
+    border-radius: 8px;
+  }
+
+
+
+/* Media Queries*/
+/* For responsive and device friendly website*/
+
+@media (max-width: 991px) {
+  html {
+    font-size: 55%;
+  }
+
+  .header {
+    padding: 2rem 3%;
+  }
+}
+
+@media (max-width: 768px) {
+  #menu-btn {
+    display: inline-block;
+  }
+
+  .header .navbar {
+    position: absolute;
+    top: 100%;
+    right: 2rem;
+    background: #fff;
+    flex-direction: column;
+    width: 200px;
+    padding: 1rem 0;
+    box-shadow: 0 0.1rem 1rem rgba(0, 0, 0, 0.1);
+    display: none;
+  }
+
+  .header .navbar.active {
+    display: flex;
+  }
+
+  .header .navbar a {
+    padding: 1rem 2rem;
+    width: 100%;
+    text-align: left;
+  }
+
+  /* About Us Page*/
+  .about-us-page{
+    padding: 0px 20px;
+  }
+  .about-us-page .heading{
+    font-size: 36px;
+  }
+  .about-us-page p{
+    font-size: 17px;
+    margin-bottom: 0px;
+  }
+  .container{
+    padding: 0px;
+  }
+  .about{
+    padding: 20px;
+    flex-direction: column;
+  }
+  .about-image{
+    margin-right: 0px;
+    margin-bottom: 20px;
+  }
+  .about-content p{
+    padding: 0px;
+    font-size: 16px;
+  }
+
+  /* Mission and Vision Page*/
+  .mission-vision-page{
+    padding: 0px 20px;
+  }
+  .mission-vision-page .heading{
+    font-size: 36px;
+  }
+  .container{
+    padding: 0px;
+  }
+  .mission-vision{
+    padding: 20px;
+    flex-direction: column;
+  }
+  .mission-vision-image{
+    margin-right: 0px;
+  }
+  .mission-vision-content p{
+    padding: 0px;
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 450px) {
+  html {
+    font-size: 50%;
+  }
+
+  .header .logo {
+    font-size: 2rem;
+  }
+
+  .header .icons div {
+    height: 4rem;
+    width: 4rem;
+    font-size: 1.8rem;
+  }
+}
